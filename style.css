@@ -1,0 +1,27 @@
+:root {
+    --black-color: #0B0F19;
+    --purple-color: #7C3AED;
+    --blue-color: #2563eb;
+    --pink-color: #ec4899;
+    --cyan-color: #22d3ee;
+    --white--color: #ffffff;
+    --font-family: 'Poppins', sans-serif;
+}
+
+
+body {
+    background-color: var(--black-color);
+    color: var(--white--color);
+    font-size: 25px;
+}
+
+.lista {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: var(--purple-color);
+}
