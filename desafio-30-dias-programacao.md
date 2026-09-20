@@ -14,9 +14,9 @@
 
 - ✅ **Dia 1** — HTML básico: estrutura da página do seu portfólio
 - ✅ **Dia 2** — CSS básico: estilizar o portfólio (cores, fontes, layout)
-- [ ] **Dia 3** — CSS: responsividade (flexbox/grid) — finalizar portfólio v1
-- [ ] **Dia 4** — JavaScript básico: variáveis, funções, eventos
-- [ ] **Dia 5** — Mini-projeto: contador interativo (+ / - / reset)
+- ✅ **Dia 3** — CSS: responsividade (flexbox/grid) — finalizar portfólio v1
+- ✅ **Dia 4** — JavaScript básico: variáveis, funções, eventos
+- ✅ **Dia 5** — Mini-projeto: contador interativo (+ / - / reset)
 - [ ] **Dia 6** — Mini-projeto: lista de tarefas (to-do list) — parte 1
 - [ ] **Dia 7** — Finalizar to-do list + post no LinkedIn sobre a semana 1
 
