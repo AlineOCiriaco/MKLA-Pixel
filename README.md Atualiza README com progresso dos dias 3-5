@@ -37,6 +37,31 @@ Criei um arquivo `style.css` separado e conectei ao HTML via `<link>`, aplicando
 - Onde fica o espaçamento padrão do navegador (no elemento pai, não nos filhos)
 - Debug visual: comparar o código com o resultado renderizado no navegador
 
+### Dia 3 — Responsividade com Flexbox
+Reorganizei o HTML em seções semânticas (`<header>` e `<section>`) e apliquei Flexbox na lista de tecnologias para que os itens ficassem lado a lado, com uma media query para empilhá-los novamente em telas pequenas.
+
+**Principais aprendizados:**
+- `display: flex` no elemento pai organiza os filhos lado a lado
+- `gap` para espaçamento entre itens, sem precisar de margin manual
+- Media queries (`@media (max-width: ...)`) para adaptar o layout a telas menores
+
+### Dia 4 — JavaScript básico
+Conectei um arquivo `script.js` ao HTML e pratiquei os blocos fundamentais da linguagem: variáveis, funções e como confirmar a conexão via console do navegador.
+
+**Principais aprendizados:**
+- Declarar variáveis com `let` e criar funções que recebem parâmetros e retornam valores
+- Debug com `console.log()` no DevTools
+- Escopo: por que uma variável definida como parâmetro de função "esconde" temporariamente uma variável de mesmo nome definida fora dela
+
+### Dia 5 — Mini-projeto: Calculadora interativa
+Construí uma pequena calculadora que soma e subtrai o valor digitado em um campo de input, atualizando o resultado na tela a cada clique.
+
+**Principais aprendizados:**
+- Capturar elementos do HTML com `document.getElementById`
+- Atualizar conteúdo na tela com `.textContent`
+- Conectar cliques de botão à lógica com `.addEventListener`
+- Por que uma variável de estado (o valor acumulado) precisa viver fora das funções para não ser resetada a cada clique
+
 ---
 
 ## 🗺️ Estrutura do desafio (visão geral)
@@ -53,8 +78,9 @@ Checklist completo do desafio: [`desafio-30-dias-programacao.md`](./desafio-30-d
 ---
 
 ## 🛠️ Tecnologias até agora
-- HTML5
-- CSS3 (variáveis, seletores, Flexbox em andamento)
+- HTML5 (estrutura semântica)
+- CSS3 (variáveis, seletores, Flexbox, media queries)
+- JavaScript (variáveis, funções, DOM, eventos)
 
 ---
 
