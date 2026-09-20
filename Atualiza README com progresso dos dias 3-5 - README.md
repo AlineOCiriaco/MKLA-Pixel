@@ -1,87 +1,83 @@
-# 🚀 Desafio de 30 Dias Programando
 
+
+Readme · MD
+# 🚀 Desafio de 30 Dias Programando
+ 
 ## 📌 Sobre o desafio
 Este repositório documenta minha jornada de **30 dias aprendendo a programar do zero**, com o objetivo de:
 - Criar projetos reais para portfólio no GitHub
 - Fixar conceitos na prática, em vez de só assistir tutoriais
 - Construir consistência (commits diários) e visibilidade (posts semanais no LinkedIn)
-
 O desafio percorre HTML, CSS, JavaScript e Python, começando pelos fundamentos e evoluindo até um projeto final mais completo no Dia 30.
-
+ 
 **Metodologia:** cada dia segue um formato de estudo guiado — leitura curta, perguntas antes da prática (recall ativo), desafio de código feito de forma independente, e explicação dos conceitos com minhas próprias palavras (técnica de Feynman) para reduzir dependência de respostas prontas.
-
+ 
 ---
-
+ 
 ## ✅ Progresso
-
+ 
 ### Dia 1 — HTML básico
 Criei a estrutura inicial da página de portfólio (`index.html`), incluindo:
 - Estrutura padrão do documento (`<!DOCTYPE html>`, `<html>`, `<head>`, `<body>`)
 - Metadados (`charset`, `viewport`, `title`)
 - Conteúdo visível: título, parágrafo de apresentação e lista de tecnologias (`<ul>`/`<li>`)
-
 **Principais aprendizados:**
 - Diferença entre tag e atributo
 - Diferença de sintaxe entre HTML (`=`) e CSS (`:`)
 - Importância de listas semânticas (`<li>` para cada item, não texto solto dentro de `<ul>`)
-
 ### Dia 2 — CSS básico
 Criei um arquivo `style.css` separado e conectei ao HTML via `<link>`, aplicando:
 - Variáveis CSS (`:root`) para cores e fontes reutilizáveis
 - Estilização do `body` (cor de fundo, cor de texto, tamanho de fonte)
 - Estilização do `<h1>`
 - Remoção do estilo padrão da lista (`list-style-type`, `padding`, `margin`)
-
 **Principais aprendizados:**
 - Diferença entre seletor de elemento pai (`.lista`) e elemento filho (`.lista li`)
 - Onde fica o espaçamento padrão do navegador (no elemento pai, não nos filhos)
 - Debug visual: comparar o código com o resultado renderizado no navegador
-
 ### Dia 3 — Responsividade com Flexbox
 Reorganizei o HTML em seções semânticas (`<header>` e `<section>`) e apliquei Flexbox na lista de tecnologias para que os itens ficassem lado a lado, com uma media query para empilhá-los novamente em telas pequenas.
-
+ 
 **Principais aprendizados:**
 - `display: flex` no elemento pai organiza os filhos lado a lado
 - `gap` para espaçamento entre itens, sem precisar de margin manual
 - Media queries (`@media (max-width: ...)`) para adaptar o layout a telas menores
-
 ### Dia 4 — JavaScript básico
 Conectei um arquivo `script.js` ao HTML e pratiquei os blocos fundamentais da linguagem: variáveis, funções e como confirmar a conexão via console do navegador.
-
+ 
 **Principais aprendizados:**
 - Declarar variáveis com `let` e criar funções que recebem parâmetros e retornam valores
 - Debug com `console.log()` no DevTools
 - Escopo: por que uma variável definida como parâmetro de função "esconde" temporariamente uma variável de mesmo nome definida fora dela
-
 ### Dia 5 — Mini-projeto: Calculadora interativa
 Construí uma pequena calculadora que soma e subtrai o valor digitado em um campo de input, atualizando o resultado na tela a cada clique.
-
+ 
 **Principais aprendizados:**
 - Capturar elementos do HTML com `document.getElementById`
 - Atualizar conteúdo na tela com `.textContent`
 - Conectar cliques de botão à lógica com `.addEventListener`
 - Por que uma variável de estado (o valor acumulado) precisa viver fora das funções para não ser resetada a cada clique
-
 ---
-
+ 
 ## 🗺️ Estrutura do desafio (visão geral)
-
+ 
 | Semana | Foco |
 |--------|------|
 | 1 | Fundamentos + Web (HTML, CSS, JavaScript básico) |
 | 2 | Lógica de programação com Python |
 | 3 | Dados e projetos práticos |
 | 4 | Consolidação, especialização e projeto final |
-
+ 
 Checklist completo do desafio: [`desafio-30-dias-programacao.md`](./desafio-30-dias-programacao.md)
-
+ 
 ---
-
+ 
 ## 🛠️ Tecnologias até agora
 - HTML5 (estrutura semântica)
 - CSS3 (variáveis, seletores, Flexbox, media queries)
 - JavaScript (variáveis, funções, DOM, eventos)
-
 ---
-
+ 
 *Progresso atualizado diariamente como parte do desafio de 30 dias.*
+ 
+
